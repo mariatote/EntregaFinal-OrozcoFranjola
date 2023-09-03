@@ -187,7 +187,7 @@ h3 {
   align-self: stretch;
 }
 
-.contenido-menu > button {
+.contenido-menu button {
   background-color: #FF5733;
   border: none;
   color: #ffffff;
@@ -197,8 +197,7 @@ h3 {
   width: 180px;
   transition: 0.4s all;
 }
-
-.contenido-menu > button:hover {
+.contenido-menu button:hover {
   transform: translate(9px);
   background-color: #B24C63;
 }

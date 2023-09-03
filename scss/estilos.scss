@@ -216,21 +216,25 @@ font-family:'montserrat'
     font-weight: 400;
     align-self: stretch;
 }
-.contenido-menu>button{
-    background-color: #FF5733;
-    border: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 5px;
-    width: 180px;
-    transition: .4s all;
 
-}
 
-.contenido-menu>button:hover{
-    transform: translate(+9px);
-    background-color: #B24C63;
+
+.contenido-menu{
+    button{
+        background-color: #FF5733;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 5px;
+        width: 180px;
+        transition: .4s all;
+
+        &:hover{
+            transform: translate(+9px);
+            background-color: #B24C63;
+        }
+    }
 }
 
 
