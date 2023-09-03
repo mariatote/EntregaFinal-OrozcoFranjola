@@ -1,66 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&family=Poppins:wght@200;400;700&display=swap"
+    rel="stylesheet">
 
+  <title>ROADBURGER</title>
 
-<!--font-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
-
-    <title>ROADBURGER</title>
-
-    <!--SEO-->
-<meta name="description" content="Acá encontraras una alternativa de hamburguesas a base de proteina vegetal">
-<meta keywords="keywords" content="">
+  <!--SEO-->
+  <meta name="description" content="Acá encontraras una alternativa de hamburguesas a base de proteina vegetal">
+  <meta keywords="keywords" content="vegan veganburger vegetarianos">
 
 
-<!--Favicon-->
-<link rel="icon" href="./assets/icon/burger.png" >
+  <!--Favicon-->
+  <link rel="icon" href="./assets/icon/burger.png">
 
-<!--cssbootstrap-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!--cssbootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-<!--css-->
-<link rel="stylesheet" href="css/estilos.css">
-
+  <!--css-->
+  <link rel="stylesheet" href="css/estilos.css">
 
 
 
-<!--Animate.css-->
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
->
+
+  <!--Animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 </head>
 
 <body>
 
-    <!-- Inicio del menu -->
+  <!-- Inicio del menu -->
 
-   
-    
-    <nav class="navbar navbar-expand-md mb-4 fs-4 tote">
-      <div class="container-fluid">
+
+
+  <nav class="navbar navbar-expand-md mb-4 fs-4 tote">
+    <div class="container-fluid">
       <!-- icono o nombre -->
 
       <a class="navbar-brand" href="index.html">
-        <img class="logoroad animate__animated animate__flash"  src="./assets/road-burger-logo.png"  width="80px" alt="foto hamburguesa">
-        
+        <img class="logoroad animate__animated animate__flash" src="./assets/road-burger-logo.png" width="80px"
+          alt="foto hamburguesa">
+
       </a>
-          
+
       <!-- boton del menu -->
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
 
-        <!-- elementos del menu colapsable -->
+      <!-- elementos del menu colapsable -->
 
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto">
@@ -76,176 +75,153 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             <a class="nav-link" href="./paginas/menu.html">Menú</a>
           </li>
 
-      
+
           <li class="nav-item">
             <a class="nav-link" href="./paginas/roadmerch.html">Road Merch</a>
           </li>
 
-        
-          
+
+
           <li class="nav-item">
             <a class="nav-link" href="./paginas/contactos.html">Contactanos</a>
           </li>
-          
-          
+
+
         </ul>
 
-       
 
 
-        
-        
+
+
+
       </div>
-   
-      </div>  
-    </nav>
+
+    </div>
+  </nav>
 
 
+  <!-- Bootstrap slider -->
 
 
-      <!--primer nav
-          <header class="header">
-        <div class="logo">
-            <a href="index.html">
-            <img src="./assets/road-burger-logo.png" alt="Logo Road Burger">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/slide01.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/slide02.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/slide03.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!---->
+
+  <div class="container-proteinas text-center">
+    <div class="row proteinas">
+      <div class="col sm-4 prote">
+        <h1>Nuestras proteínas</h1>
+      </div>
+
+      <div class="row protes">
+        <div class="col sm-4 protetexto">
+          <h3 class="protes">Soya</h3>
         </div>
-        <nav>
-           <ul class="nav-links">
-                <li><a href="./paginas/menu.html">Menú</a></li>
-                <li><a href="./paginas/delivery.html">Delivery</a></li>
-                <li><a href="./paginas/roadmerch.html">Road Merch</a></li>
-                <li><a href="./paginas/quienessomos.html">Quienes Somos</a></li>
-                <li><a href="./paginas/contactos.html">Contactos</a></li>
-           </ul>            
-        </nav>
-            </header>
-        -->
-
-
-
-
-<!--contenido principal-->
-<!--
-<main>
-    <div class= "imagen-slider" >
-    <img src="../Road-Burger/assets/slide1.jpg" alt="ROAD" class="slider">
-    </div>
-</main> -->
-
-<!-- Bootstrap slider -->
-
-
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./assets/slide01.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/slide02.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/slide03.jpg" class="d-block w-100" alt="...">
+        <div class="col sm-4 protetexto ">
+          <h3>Garbanzo</h3>
+        </div>
+        <div class="col sm-4 protetexto">
+          <h3>Seitan</h3>
+        </div>
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
-<!---->
 
-<div class="container-proteinas text-center">
-  <div class="row proteinas">
-    <div class="col sm-4 prote">
-      <h2>Nuestras proteínas</h2>
-    </div>
-    
-   <div class="row protes">
-    <div class="col sm-4 protetexto">
-      <h3 class="protes">Soya</h3>
-    </div>
-    <div class="col sm-4 protetexto ">
-     <h3>Garbanzo</h3>
-    </div>
-    <div class="col sm-4 protetexto">
-     <h3>Seitan</h3> 
-    </div>
+
+  <!--video-->
+
+  <div class="contenedor-video">
+    <iframe width="960" height="315" src="https://www.youtube.com/embed/HS24PywYlxg" title="hamburguesa" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
   </div>
-  </div>
-</div>
-
-
-
-<!--video-->
-
-    <div class="contenedor-video">
-        <iframe width="960" height="315" src="https://www.youtube.com/embed/HS24PywYlxg" title="hamburguesa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    
 
 
 
 
 
-<!--Footer-->
-<footer class="footer-distributed">
 
-  <div class="footer-left">
-    <img src="./assets/road-burger-logo.png"  width="100px" alt="foto hamburguesa">
+  <!--Footer-->
+  <footer class="footer-distributed">
 
-    <p class="footer-links">
-      <a href="./index.html">Index</a>
-      |
-      <a href="/paginas/quienessomos.html">Quienes Somos</a>
-      |
-      <a href="/paginas/menu.html">Menú</a>
-      |
+    <div class="footer-left">
+      <img src="./assets/road-burger-logo.png" width="100px" alt="foto hamburguesa">
 
-      <a href="/paginas/roadmerch.html">Road Merch</a>
+      <p class="footer-links">
+        <a href="./index.html">Index</a>
+        |
+        <a href="/paginas/quienessomos.html">Quienes Somos</a>
+        |
+        <a href="/paginas/menu.html">Menú</a>
+        |
 
-      |
-      <a href="/paginas/contactos.html">Contactos</a>
-  </p>
+        <a href="/paginas/roadmerch.html">Road Merch</a>
+
+        |
+        <a href="/paginas/contactos.html">Contactos</a>
+      </p>
 
       <p class="footer-company-name">Copyright © 2023 <strong>TOTEOROZCO</strong> Todos los derechos Reservados</p>
-  </div>
+    </div>
 
-  <div class="footer-center">
+    <div class="footer-center">
       <div>
-          <i class="fa fa-map-marker"></i>
-          <p>Llamanos</p>
+        <i class="fa fa-map-marker"></i>
+        <p>Llamanos</p>
       </div>
 
       <div>
-          <i class="fa fa-phone"></i>
-          <p>+56 9 9067 2799</p>
+        <i class="fa fa-phone"></i>
+        <p>+56 9 9067 2799</p>
       </div>
       <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="road.burgermelipilla@gmail.com">road.burgermelipilla@gmail.com</a></p>
+        <i class="fa fa-envelope"></i>
+        <p><a href="road.burgermelipilla@gmail.com">road.burgermelipilla@gmail.com</a></p>
       </div>
-  </div>
-  <div class="footer-right">
+    </div>
+    <div class="footer-right">
       <p class="footer-company-about">
-          <span>Sobre Road Burger</span>
-         Desde 2017, nos dedicamos a cocinar una opcción de buger apta para veganos, vegetarianos y carnivoros dispuestos a disfrutar una opccion a base de proteina vegetal
+        <span>Sobre Road Burger</span>
+        Desde 2017, nos dedicamos a cocinar una opcción de buger apta para veganos, vegetarianos y carnivoros dispuestos
+        a disfrutar una opccion a base de proteina vegetal
       </p>
       <div class="footer-icons">
-          <a href="https://www.facebook.com/Roadburgerveg"><i class="fa fa-facebook"> <img src="./assets/facebook.png" alt="red social facebook"></i></a>
-          <a href="https://www.instagram.com/roadburgermelipilla/"> <i class="fa fa-instagram"> <img src="./assets/instagram.png" alt="red social Instagram" </i> </a>
-          
+        <a href="https://www.facebook.com/Roadburgerveg"><i class="fa fa-facebook"> <img src="./assets/facebook.png"
+              alt="red social facebook"></i></a>
+        <a href="https://www.instagram.com/roadburgermelipilla/"> <i class="fa fa-instagram"> <img
+              src="./assets/instagram.png" alt="red social Instagram" </i> </a>
+
       </div>
-  </div>
-</footer>
+    </div>
+  </footer>
 
 
-<!--javabootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <!--javabootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
