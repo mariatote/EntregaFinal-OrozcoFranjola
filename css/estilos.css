@@ -201,6 +201,20 @@ h3 {
   transform: translate(9px);
   background-color: #B24C63;
 }
+.contenido-menu a {
+  background-color: #FF5733;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 180px;
+  transition: 0.4s all;
+}
+.contenido-menu a:hover {
+  transform: translate(9px);
+  background-color: #B24C63;
+}
 
 /*Merche*/
 .merch {
