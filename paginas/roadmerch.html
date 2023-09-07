@@ -91,23 +91,7 @@
 
     <div class="titulo-merch"><h2>ROAD MERCH</h2></div>
 
-    <!--merch primerea idea
-    <section class="gallery-container-merch">
 
-        <div class="gallery-item-merch">
-          <img src="../assets/merch-gorro.jpg" alt="Descripción de la imagen 1">
-        </div>
-        <div class="gallery-item-merch">
-          <img src="../assets/merch-gorrolana.jpg" alt="Descripción de la imagen 2">
-        </div>
-        <div class="gallery-item-merch">
-          <img src="../assets/merch-polera.png" alt="Descripción de la imagen 3">
-        </div>
-        <div class="gallery-item-merch">
-          <img src="../assets/merch-totebag.jpg" alt="Descripción de la imagen 4">
-        </div>
-      </section>
--->
 
 <div class="merch">
   <div class="merch-items">
@@ -139,15 +123,15 @@
 
   
   <div class="merch-items">
-    <img src="../assets/merch-polera.png">
+    <img src="../assets/merch-polera.jpg">
     <div class="contenido-merch">
         <div class="contenido-sub">
             <h3>Polera</h3>
             <h5 class="precio"> $8.000 </h5>
         </div>
-        <p>¡Cuando encuentras algo bueno y te gusta la puedes contar, a veces por WhatsApp, otras por una historia de Instagram, yo quiero contarte con mi ropa!</p>
-        <button>La quiero</button>
-    </div>
+        <p>¡Cuando encuentro algo bueno, yo quiero una polera!</p>
+        <button id="btnmodal" class="botonmodal" >La quiero</button>
+      </div>
   </div>
 
 
@@ -160,8 +144,24 @@
             <h5 class="precio"> $4.000 </h5>
         </div>
         <p>¡Con las Road voy a todos lados! ¡Por eso llevo mi bolsita! No uso plástico y me veo aesthetic</p>
-        <button>La quiero</button>
+        
+        <!-- Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Upps no hay stock aun..</p>
+  </div>
+
+</div>
+
     </div>
+          
+      </div>
   </div>
 
 
@@ -225,7 +225,7 @@
  <!--javabootstrap-->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-
+<script src="app.js"></script>
 
 </body>
 </html>
